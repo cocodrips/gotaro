@@ -1,4 +1,4 @@
-package incominghkhandler
+package controllers
 /*
 curl -X POST --data-urlencode 'payload={"channel": "#bottest", "username": "webhookbot", "text": "This is posted to #bottest and comes from a bot named webhookbot.", "icon_emoji": ":ghost:"}' https://hooks.slack.com/services/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
 */
@@ -11,7 +11,7 @@ import (
 )
 
 // FIXME
-var incomingHookURL string = "https://hooks.slack.com/services/T06U26M28/B07SDR13J/Ytay9HHlWNXJk8pvmJULLpY"
+var incomingHookURL string = "https://hooks.slack.com/services/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"
 
 type payload struct {
 	Channel string `json:"channel"`
