@@ -11,7 +11,7 @@
 ## slack API
 
 | api | detail |
-|:-----------|------------:|
+|:-----------|:-----------|
 | Incoming WebHooks |slackがURL発行, URLへPOSTすると指定channel,botname,msgで投稿する |
 | Outgoing WebHooks |slackへ指定のmsgが投稿されると指定したURLに投稿内容がPOSTされる, 指定URLにリクエストが来たらハンドルするwebapp作ったらよし |
 | Slack API|メッセージ投稿, ファイルアップロード・チーム情報やチャンネル情報の取得, 絵文字のリストとれたりとか（いらん）|
