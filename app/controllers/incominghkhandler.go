@@ -36,7 +36,7 @@ func CreateIncomingRequestJSON(channel string, botname string, msg string, icon 
 }
 
 func TestPost() error {
-	jsonBytes := CreateIncomingRequestJSON("#bottest", "gotaro", "test from golang @wakame", ":go:")
+	jsonBytes := CreateIncomingRequestJSON("#bottest", "herokuchang", "test from herokuapp @wakame", ":vim:")
 	res, err := http.PostForm(incomingHookURL, url.Values{
 		"payload": { string(jsonBytes) },
 	})
