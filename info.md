@@ -17,12 +17,13 @@
 
 - 細かいAPIはSlackAPI, 手軽にリアルタイム応答使おうとおもったら Incoming/Outgoing Webhook使うと簡単だよみたいに見えた（わからんけど）
 
-## Incoming Webhooksの設定
+### Incoming Webhooksの設定
 https://bolders.slack.com/services/7897851120
 
-## Outgoing Webhooksの設定
+### Outgoing Webhooksの設定
 https://bolders.slack.com/services/7897499748
 
+### 細かいAPI情報
 Slack API
 https://api.slack.com/
 
