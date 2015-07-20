@@ -5,7 +5,7 @@
 module:testrunner
 
 GET     /                                       App.Index
-GET     /incoming                               App.Incoming
+POST    /rqhandler                              App.RqHandler
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

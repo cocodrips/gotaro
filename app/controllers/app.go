@@ -1,6 +1,9 @@
 package controllers
 
-import "github.com/revel/revel"
+import (
+	"github.com/revel/revel"
+	"fmt"
+)
 
 type App struct {
 	*revel.Controller
@@ -17,6 +20,8 @@ func (c App) Index() revel.Result {
 }
 
 
-func (c App) Incoming() revel.Result {
-	return c.RenderJson(Test{"Hello"})
+func (c App) RqHandler(text string) revel.Result {
+	fmt.Println(c.Params)
+	fmt.Println(text)
+	return c.RenderJson(Test{hello()})
 }
